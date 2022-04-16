@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './nav/navBar';
 import Header from  './header/Header'
+import Categories from  './categories/Categories'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <main>
       <Navbar/>
       <Header/>
+      <Categories/>
     </main>
   );
 }

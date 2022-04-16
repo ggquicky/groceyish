@@ -30,7 +30,7 @@ function Header() {
             />
           </svg>
 
-          <input type="email"></input>
+          <input type="email"/>
         </div>
 
         <button>Subscribe</button>
