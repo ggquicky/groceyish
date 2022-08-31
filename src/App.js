@@ -1,22 +1,14 @@
+import "./App.css";
+import Navbar from "./nav/navBar";
+import Header from "./header/Header";
+import Categories from "./categories/Categories";
 
-import './App.css';
-import Navbar from './nav/navBar';
-import Header from  './header/Header'
-import Categories from  './categories/Categories'
-
-function App() {
-  
-
+export default function App() {
   return (
     <main>
-      <Navbar/>
-      <Header/>
-      <Categories/>
+      <Navbar />
+      <Header />
+      <Categories />
     </main>
   );
 }
-
-export default App;
-
-
-
